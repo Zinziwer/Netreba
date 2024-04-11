@@ -1,0 +1,23 @@
+@import "null";
+@import "fonts";
+@import "header";
+@import "about";
+
+@import "contacts";
+@import "footer";
+
+.container {
+	width: 1200px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+@media screen and (max-width:769px){
+	.container {
+		width: 768px;
+	}
+}
+@media screen and (max-width:376px){
+	.container {
+		width: 375px;
+	}
+}
