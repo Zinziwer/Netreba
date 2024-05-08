@@ -606,7 +606,7 @@ html {
   font-weight: 700;
 }
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 1300px) {
   .uparrow.active {
     opacity: 0.8;
   }
