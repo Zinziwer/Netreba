@@ -608,7 +608,7 @@ html {
 
 @media screen and (max-width: 1300px) {
   .uparrow.active {
-    opacity: 0.8;
+    opacity: 0.7;
   }
 }
 @media screen and (max-width: 376px) {
