@@ -2,22 +2,69 @@
 @import "fonts";
 @import "header";
 @import "about";
-
+@import "intro";
+@import "services";
 @import "contacts";
+@import "reviews";
 @import "footer";
+@import url('https://fonts.googleapis.com/css2?family=Arsenal&family=Marmelad&display=swap');
 
+body{
+	background-color: #ffecec;
+	font-family: "Marmelad", sans-serif;
+	color: rgb(179, 17, 17);
+}
+html{
+	scroll-behavior: smooth;
+}
+.wrapper{
+	position: relative;
+}
+.uparrow{
+	position: fixed;
+	bottom: 700px;
+	right: 10px;
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	background: url(../img/56/uparrow.png);
+	background-size: cover;
+	z-index: 10;
+	cursor: pointer;
+	visibility: hidden;
+	opacity: 0;
+	transition: 0.5s;
+}
+.uparrow.active{
+	bottom: 40px;
+	visibility: visible;
+	opacity: 1;
+}
 .container {
-	width: 1200px;
+	max-width: 1200px;
 	margin: 0 auto;
 	padding: 0 15px;
 }
+.title{
+	padding-top: 40px;
+	font-size: 40px;
+	font-weight: 700;
+}
+
 @media screen and (max-width:769px){
-	.container {
-		width: 768px;
-	}
+	.uparrow.active{
+		opacity: .8;
+	}	
 }
 @media screen and (max-width:376px){
 	.container {
-		width: 375px;
+		padding: 0 15px;;
+	}
+	.uparrow.active{
+		opacity: .5;
+	}
+	.title{
+		padding-top: 0px;
+		font-size: 30px;
 	}
 }

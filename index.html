@@ -1,30 +1,293 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+	<title>Netreba</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Roboto:wght@400;700&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/swiper-bundle.min.css">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 </head>
+
 <body>
-	<header class="header">
-		<div class="container">
-				
-		</div>
-	</header>
-	<div class="about" id="about">
-		<div class="container">
-			
-		</div>
+	<div class="uparrow" onclick="scrollTopTop()"></div>
+	<div class="wrapper">
+		<header class="header">
+			<div class="container">
+		
+				<nav class="header__menu">
+					<ul>
+						<li class="header__menu-item"><a href="#about">Обо мне</a></li>
+						<li class="header__menu-item"><a href="#services">Услуги</a></li>
+						<li class="header__menu-item"><a href="#contacts">Контакты</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<section class="content">
+			<div class="container">
+				<div class="intro">
+					<div class="intro__top">
+						<div class="intro__image">
+							<img src="img/IMG_7359561561.jpg" alt="" class="intro__pic">
+						</div>
+						<div class="intro__block1">
+							<div class="intro__textblock1">
+								<h1 class="intro__title title">Персональный стилист</h1>
+								<h2 class="intro__subtitle">Светлана Нетреба</h2>
+								<p class="intro__text">Стилист - любитель перемен.<br> Покажу, что меняться нестрашно.</p>
+								<p class="intro__text">В своей работе я использую<br> бережный подход к каждому.</p>
+							</div>
+							<div class="intro__img">
+								<img src="img/56/NZ.jpg" alt="fhoto" class="intro__pic img1">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="about" id="about">
+					<div class="about__top">
+						<div class="intro__image">
+							<img src="img/IMG_7367562.jpg" alt="" class="intro__pic">
+						</div>
+						<h2 class="about__title title">Преимущества работы со мной</h2>
+						<div class="about__textblock">
+							<p class="about__text">
+								Стиль-это наша жизнь, наши планы и мечты. Наши главные ценности и жизненные потребности. Часто они скрыты за нашими установками и страхом осуждения окружения.
+							</p>
+							<p class="about__text">
+								Я убеждена, что стиль есть и заложен в каждом. А вот навык нужно развить, как и любое умение в нашей жизни.
+							</p>
+							<p class="about__text">
+								Я помогу посмотреть на свой стиль со стороны. Провести полный анализ потребностей, выявить истинный вектор развития стиля. И создать гардероб, где каждая вещь будет нужной.
+							</p>
+							<p class="about__text">
+								А с полным пониманием себя можно будет легко отслеживать свое состояние и транслировать с помощью одежды.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="services" id="services">
+					<h2 class="services__title title">Мои услуги</h2>
+					<div class="services__accord">
+						<div class="services__item sitem1">
+							<input class="sitem1__input" type="checkbox" id="accord1">
+							<label class="sitem1__title" for="accord1">Диагностическая консультация</label>
+							
+							<div class="sitem1__descr">
+								<p>Формат: онлайн/очно</p>
+								<p>ЦЕЛИ:
+									Определить главные вопросы в формировании стиля
+									Задать интересующие вопросы</p>
+								<p>РЕЗУЛЬТАТ:
+									Есть понимание, что хочется поменять</p>
+								<p>Целью диагностической консультации является диагностика. А именно понимание и осознание того, что хочется изменить. Здесь я могу предложить варианты того, как можно начать изменение. Решение о дальнейшей работе принимается самостоятельно.</p>
+								<p>Время: 30 мин - 1 час</p>
+								<p>Цена: 2500 р.</p>
+							</div>							
+						</div>
+						<div class="sitem__subtitle">Консультация-знакомство для определения главной сложности в гардеробе. Для тех, кто не понимает, какая услуга необходима.</div>
+						<div class="services__item sitem1">
+							<input class="sitem1__input" type="checkbox" id="accord2">
+							<label class="sitem1__title" for="accord2">Консультация по определению стиля</label>
+							<div class="sitem1__descr">
+								<p>Формат: онлайн/очно</p>
+								<p>ЦЕЛИ:
+									Понять, что хочется поменять в гардеробе.
+									Составить пошаговый план изменения стиля.</p>
+								<p>РЕЗУЛЬТАТ:
+									Теперь ты знаешь, как хочешь выглядеть.
+									У тебя есть план по изменению стиля.</p>
+								<p>Через неделю ты получишь файл в формате pdf с рекомендациями.
+								</p>
+								<p>Время: 1-1,5 часа</p>
+								<p>Цена: 5000 р.</p>
+							</div>
+						</div>
+						<div class="sitem__subtitle">Здесь мы работаем с четким осознанием себя, собственных целей, того, как действительно хочется выглядеть.</div>
+						<div class="services__item sitem1">
+							<input class="sitem1__input" type="checkbox" id="accord3">
+							<label class="sitem1__title" for="accord3">Разбор гардероба</label>
+							<div class="sitem1__descr">
+								<p>Формат: онлайн/очно</p>
+								<p>ЦЕЛИ:
+									Освободить гардероб от неподходящих вещей по стилю и по душе.
+									Найти новые сочетания из твоих вещей.
+									Оставить только лучшее для себя.</p>
+								<p>РЕЗУЛЬТАТ:
+									Ты собираешься за 5 минут.
+									В твоём гардеробе только нужные и любимые вещи.
+									Ты умеешь сочетать свои вещи.
+									Есть образы на все случаи жизни.</p>
+								<p>Через неделю после разбора ты получишь лук бук - файл с готовыми сочетаниями вещей из твоего гардероба и сможешь пользоваться им каждый день при выборе «что надеть».</p>
+								<p>Время: от 2 до 5 часов</p>
+								<p>Цена: 10 000 р.</p>
+								<p>Москва и С-Петербург 15 000 р.</p>
+							</div>
+						</div>
+						<div class="services__item sitem1">
+							<input class="sitem1__input" type="checkbox" id="accord4">
+							<label class="sitem1__title" for="accord4">Разбор гардероба на год</label>
+							<div class="sitem1__descr">
+								<p>Своего рода "подписка" на разбор гардероба на год. Я проведу разбор гардероба на все 4 сезона, потребуется определить только комфортные даты.</p>
+								<p>Так же включена опция общения со мной в удобном мессенджере. В оговоренные часы у тебя всегда будет возможность спросить совет или дать мне обратную связь.</p>
+								<p>Цена: 25000 р.</p>
+							</div>
+						</div>
+						<div class="services__item sitem1">
+							<input class="sitem1__input" type="checkbox" id="accord5">
+							<label class="sitem1__title" for="accord5">Шопинг-сопровождение</label>
+							<div class="sitem1__descr">
+								<p>Формат: онлайн/очно</p>
+								<p>ЦЕЛИ:
+									Быстро и эффективно купить необходимые вещи в гардероб.
+								</p>
+								<p>РЕЗУЛЬТАТ:
+									Вместе купим вещи, которые идеально впишутся в гардероб.
+									Научишься сочетать вещи.
+									Научишься показывать свою индивидуальность через стиль.
+								</p>
+								<p>Целью диагностической консультации является диагностика. А именно понимание и осознание того, что хочется изменить. Здесь я могу предложить варианты того, как можно начать изменение. Решение о дальнейшей работе принимается самостоятельно.</p>
+								<p>Время: от 2 до 5 часов</p>
+								<p>Цена: 10 000 р. (1-5 вещей)</p>
+								<p>15 000 р. (10-15 вещей)</p>
+								<p>Москва и С-Петербург 15 000 р. (1-5 вещей)</p>
+								<p>20 000 р. (10-15 вещей)</p>
+							</div>
+						</div>
+						<div class="services__item sitem1">
+							<input class="sitem1__input" type="checkbox" id="accord6">
+							<label class="sitem1__title" for="accord6">Агрегация гардероба</label>
+							<div class="sitem1__descr">
+								<p>Объединим вещи, приобретенные на шопинге с твоим гардеробом</p>
+								<p>Цена: 5000 р.</p>
+							</div>
+						</div>
+						<div class="services__item sitem1">
+							<input class="sitem1__input" type="checkbox" id="accord7">
+							<label class="sitem1__title" for="accord7">Сопровождение на месяц</label>
+							<div class="sitem1__descr">
+								<p>Что входит:</p>
+								<p>Консультация (1-1,5 часа).
+								Определим твой стиль и пропишем пошаговый план к нему.
+								</p>
+								<p>Разбор гардероба (2-4 часа).
+									В процессе, мы освободим гардероб от неподходящих вещей, подберем новые сочетания для привычных вещей и освободим твоё время на сборы.</p>
+								<p>Шопинг-сопровождение (2-4 часа).
+									Дополним гардероб новыми вещами, которые отражают тебя.
+									</p>
+								<p>Пост-шопинг (2-4 часа).
+									Соединим новые вещи с твоим гардеробом и составим много образов.</p>
+								<p>Цена: 20 000р. - 1 месяц.</p>
+							</div>
+						</div>
+						<div class="services__item sitem1">
+							<input class="sitem1__input" type="checkbox" id="accord8">
+							<label class="sitem1__title" for="accord8">Подбор образа на мероприятие</label>
+							<div class="sitem1__descr">
+								<p>Полноценный сбор на мероприятие. Свадьба, выпускной и другие важные события в вашей жизни. Помощь в подборе аксессуаров и прически (по необходимости)</p>
+								<p>Цена: от 10000р.</p>
+							</div>
+						</div>
+						<div class="services__item sitem1">
+							<input class="sitem1__input" type="checkbox" id="accord9">
+							<label class="sitem1__title" for="accord9">Стилизация съёмки</label>
+							<div class="sitem1__descr">
+								<p>Так же по запросу доступна услуга стилизации съемки-подбор образов на фотосессию.</p>
+								<p>За подробностями пишите в Telegram.</p>
+							</div>
+						</div>
+						<div class="services__item sitem1">
+							<input class="sitem1__input" type="checkbox" id="accord10">
+							<label class="sitem1__title" for="accord10">Обучение (разбор гардероба / шопинг для себя)</label>
+							<div class="sitem1__descr">
+								<p>Формат: онлайн/очно</p>
+								<p>ЦЕЛИ:
+									Научиться самостоятельно делать разбор гардероба и покупать только нужные вещи.</p>
+								<p>ПРОЦЕСС:
+									Проводим консультацию для определения стилевой направленности.
+									Выстраиваем ход работы.
+									Я делюсь своими инструментами, которые использую в работе.
+									С моей помощью делаем разбор гардероба и (или) шопинг.</p>
+								<p>РЕЗУЛЬТАТ:
+									Теперь ты и есть стилист для себя.</p>
+								<p>Целью диагностической консультации является диагностика. А именно понимание и осознание того, что хочется изменить. Здесь я могу предложить варианты того, как можно начать изменение. Решение о дальнейшей работе принимается самостоятельно.</p>
+								<p>Цена:
+									15 000 р. разбор гардероба для себя (консультация+обучение)
+									20 000 р. шопинг для себя (консультация+обучение)
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="reviews">
+					<h2 class="reviews__title title">Отзывы моих клиентов</h2>
+					<div class="reviews__container swiper">
+						<div class="reviews__wrapper swiper-wrapper">
+							<div class="reviews__slide swiper-slide">
+								<div class="reviews__image">
+									<img src="img/slider/0D971AA8-4DE3-4784-8.jpeg" alt="" class="reviews__pic">
+								</div>
+							</div>
+							<div class="reviews__slide swiper-slide">
+								<div class="reviews__image">
+									<img src="img/slider/2re.jpg" alt="" class="reviews__pic">
+								</div>
+							</div>
+							<div class="reviews__slide swiper-slide">
+								<div class="reviews__image">
+									<img src="img/slider/3re.jpg" alt="" class="reviews__pic">
+								</div>
+							</div>
+							<div class="reviews__slide swiper-slide">
+								<div class="reviews__image">
+									<img src="img/slider/4re.jpg" alt="" class="reviews__pic">
+								</div>
+							</div>
+						</div>
+						<div class="swiper-button-next"></div>
+						<div class="swiper-button-prev"></div>
+						<div class="swiper-pagination"></div>
+					</div>
+				</div>
+				<div class="contacts" id="contacts">
+					<h2 class="contacts__title title">Свяжитесь со мной</h2>
+					<div class="contacts__box">
+						<div class="box">
+							<a class="text" href="https://t.me/svetanetreba">
+								<p>Telegram</p>
+							</a>
+							<a class="link" href="https://t.me/svetanetreba"><i class="fa fa-telegram" aria-hidden="true"></i></a>
+						</div>
+						
+						<div class="box">
+							<a class="text" href="https://www.instagram.com/netreba_sveta/">
+								<p>Instagram</p>
+							</a>
+							<a class="link" href="https://www.instagram.com/netreba_sveta/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<footer class="footer">
+			<div class="container">
+				<div class="footer__box">
+					<div class="footer__text">Svetlana Netreba &copy</div>
+				</div>
+			</div>
+		</footer>
 	</div>
-	<div class="contacts" id="contacts">
-		<div class="container">
-			
-		</div>
-	</div>
-	<footer class="footer">
-		<div class="footer__text">Светлана Нетреба</div>
-	</footer>
+	<script src="https://kit.fontawesome.com/60205b7cbb.js" crossorigin="anonymous"></script>
+	<script src="js/swiper-bundle.min.js"></script>
 	<script src="js/main.js"></script>
 </body>
+
 </html>
